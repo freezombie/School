@@ -85,3 +85,4 @@ Johdatus ohjelmointiin C-kielellä
 5 op	arvosana: 5<br>
 Tietojärjestelmien suunnittelun perusteet
 6 op	arvosana: 3<br>
+Yhteensä 43 op
