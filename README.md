@@ -1,5 +1,5 @@
 # School
-Some of the schoolwork I could find and think might be relevant. Most have so much extra things i decided to exclude them and instead just list my relevant grades instead:
+Some of the schoolwork I could find and think might be relevant. Most have so much extra things i decided to exclude them and instead just list my relevant grades:
 
 OAMK:<br>
 Tietotekniikka työvälineenä
