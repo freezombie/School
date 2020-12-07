@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>The Big Picture of Mobile Application Development</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/uikit.min.css"/>
+        <link rel="stylesheet" href="css/custom.css"/>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+      <header>
+        <div class="uk-container">
+        <h1 class="uk-heading-primary uk-align-center">The Big Picture of Mobile Application Development</h1>
+      </div>
+        <nav class="uk-navbar-container" uk-navbar>
+          <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+              <li><a href="index.html">Types</a></li>
+              <li class="uk-active"><a href=""><span class="uk-icon uk-margin-small-right" uk-icon="icon: star"></span>Platforms</a></li>
+              <li><a href="techniques.html">Techniques</a></li>
+              <li><a href="other.html">Other info</a></li>
+            </ul>
+          </div>
+          <div class="uk-navbar-right uk-margin-large-right">
+            <small><sub>Made by: Antti Pikkuaho using UIkit</sub></small>
+          </div>
+        </nav>
+      </header>
+        <div class="uk-container">
+            <h2 class="uk-margin-top">Mobile Application Platforms</h2>
+            <small>Sometimes framework and platform seem interchangeable as terms. Some of these have been cited on different sites as frameworks and platforms both. I tried to differentiate by amount of features, or if something has its own IDE. Some sites also present that something is a platform only if it's completely stand-alone or a programming language like PHP, more on those in the techniques section.</small>
+            <ul uk-tab="animation: uk-animation-fade"> <!-- no idea how this looks on mobile -->
+              <li class="uk-active"><a href="#">Native</a></li>
+              <li><a href="#">Hybrid</a></li>
+              <li><a href="#">Responsive web</a></li>
+            </ul>
+            <ul class="uk-switcher">
+              <li>
+                <ul>
+                  <li>Android Studio</li>
+                  <li>Xcode</li>
+                  <li>Xamarin</li>
+                  <li>React Native</li>
+                  <li>NativeScript</li>
+                  <li>Titanium</li>
+                </ul>
+                <hr>
+                <p>Xamarin is said to be a more complete development environment than PhoneGap and Titanium. One of the reasons is providing the possibility to test the app on thousands of virtual devices before launching. Uses C# <sup uk-tooltip title="Saccomani P. 2018"><a href="other.html#5">[5]</a></sup> </p>
+                <p>React Native uses Javascript and React. It’s also a powerful platform for building apps for android and iOS. For instagram, the features that were built with react native shared 90% of the code between platforms. Does not provide access to all the device’s functionality but you can build that yourself in native code.  <sup uk-tooltip title="Saccomani P. 2018"><a href="other.html#5">[5]</a></sup> </p>
+                <p class="uk-margin-bottom">Titanium is similar to React Native. It’s also written in Javascript and it also bridges native APIs to Javascript with it’s own APIs. Doesn’t rely on WebViews anymore so it provides a “native” look and feel.  <sup uk-tooltip title="Saccomani P. 2018"><a href="other.html#5">[5]</a></sup> </p>
+              </li>
+              <li>
+                <ul>
+                  <li>Apache Cordova</li>
+                  <li>PhoneGap</li>
+                  <li>MobiLoud Canvas</li>
+                  <li>Appcelerator</li>
+                  <li>Trigger.IO</li>
+                  <li>Ionic Framework</li>
+                  <li>Telerik Platform</li>
+                </ul>
+                <p>PhoneGap/Cordova are probably the most well known. They use HTML, CSS and Javascript, run in WebView. PhoneGap provides native plugins that allow the use of the device’s functionality including accelerometer, camera, compass, file system, microphone, media, networks, notifications, geolocation, and storage.  <sup uk-tooltip title="Saccomani P. 2018"><a href="other.html#5">[5]</a></sup> </p>
+                <p>You can also use MobiLoud Canvas for hybrid development. Canvas is offered as a service that builds, publishes and maintains the app. They have their own codebase for iOS and Android. Includes native elements such as a tab bar, a push notifications inbox, content preloading for your pages, caching, and offline support. The app is designed to rely on a remote web app or mobile site which you control – any change on your mobile site is immediately reflected in the app. Canvas can also be used to convert a web app into a hybrid app.  <sup uk-tooltip title="Saccomani P. 2018"><a href="other.html#5">[5]</a></sup> </p>
+                <p class="uk-margin-bottom"><a href="other.html#7">Chris Rickard</a> provides Appcelerator as an alternative for cross-platform native development. For hybrid they also provide Trigger.IO, Ionic Framework and Telerik Platform.</p>
+              </li>
+              <li>
+                <ul>
+                  <li>React</li>
+                  <li>Vue.js</li>
+                  <li>Node.js</li>
+                  <li>WebFlow</li>
+                  <li>Bootstrap</li>
+                  <li>Foundation</li>
+                  <li>Wordpress</li>
+                  <li>Joomla</li>
+                  <li>Drupal</li>
+                  <li>Ghost?</li>
+                  <li>Expression Engine</li>
+                  <li>SproutCore</li>
+                  <li>jQuery</li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>The Big Picture of Mobile Application Development</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/uikit.min.css"/>
+        <link rel="stylesheet" href="css/custom.css"/>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+      <header>
+        <div class="uk-container">
+        <h1 class="uk-heading-primary uk-align-center">The Big Picture of Mobile Application Development</h1>
+      </div>
+        <nav class="uk-navbar-container" uk-navbar>
+          <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+              <li class="uk-active"><a href=""><span class="uk-icon uk-margin-small-right" uk-icon="icon: star"></span>Types</a></li>
+              <li><a href="platforms.html">Platforms</a></li>
+              <li><a href="techniques.html">Techniques</a></li>
+              <li><a href="other.html">Other info</a></li>
+            </ul>
+          </div>
+          <div class="uk-navbar-right uk-margin-large-right">
+            <small><sub>Made by: Antti Pikkuaho using UIkit</sub></small>
+          </div>
+        </nav>
+
+      </header>
+        <div class="uk-container">
+            <h2 class="uk-margin-top">Mobile Application Types</h2>
+            <ul uk-accordion="multiple: true" class="uk-list uk-list-striped">
+              <li>
+                <a class="uk-accordion-title" href="#"><span uk-icon="icon: phone; ratio: 1.25" class="uk-align-left"></span><span class>Native</span></a>
+                <div class="uk-accordion-content">
+                  <p>A native app is designed to run in a specific operating system. The code is rewritten to match the operating system if there is need to port the application to a different mobile environment. If ported, this type of development can be slow and expensive. <sup uk-tooltip title="Interaction Design Foundation, 2017."><a href="other.html#1">[1]</a></sup></p>
+                  <p>Native developers and applications can be reliant on vendor SDK’s and platform-specific programming languages. For iOS the language would be Objective-C or Swift; for Android it’s Java; and for Windows Phone it’s C#. You can break free of such dependencies using different platforms however, like NativeScript and React Native. These two provide the possibility to use web technologies for building native apps. Provides 100% access to the OS and device API’s. Often thought of being the best for applications where graphics performance is paramount. Native is also better when the application needs numerous native features or performance is critical. <sup uk-tooltip title="Bristowe J. 2017"><a href="other.html#2"><a href="other.html#2">[2]</a></a></sup></p>
+                  <hr class="uk-divider-icon">
+                  <h4>Pros</h4>
+                  <ul>
+                    <li>Fast and Responsive</li>
+                    <li>Performant, especially important for graphics intensive apps</li>
+                    <li>Easier to tap into functionality and advanced features</li>
+                    <li>Push notifications</li>
+                    <li>Match UI/UX to platform</li>
+                  </ul>
+                  <hr class="uk-divider-icon">
+                  <h4>Cons</h4>
+                  <ul>
+                    <li>More than one codebase</li>
+                    <li>Can cost more than alternatives, especially if building for different platforms</li>
+                    <li>Can take longer to build, especially if building for different platforms</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <hr>
+                <a class="uk-accordion-title" href="#"><span uk-icon="icon: git-fork; ratio: 1.25" class="uk-align-left"></span><span class>Hybrid</span></a>
+                <div class="uk-accordion-content">
+                  <p>Hybrid apps are designed to work on multiple operating systems/platforms. It’s written using a single standard code language and then compiled for each platform. Usually this is accomplished with the use of OS/device specific plugins implemented on top of the code. One clear downside of this type of application development, compared to native, are the serious challenges presented when there is a requirement for complex interaction with the device. Support costs can be higher than on native. <sup uk-tooltip title="Interaction Design Foundation, 2017."><a href="other.html#1">[1]</a></sup></p>
+                  <p>Built with a combination of web technologies, like html, css and javascript. They are however hosted inside a native application that utilizes a mobile platform’s <u uk-tooltip title="Webview: Chromeless browser window configured to run in full screen">WebView</u>. This enables the app to utilize the device’s hardware capabilities. Can include native UI elements. Each platform that the app gets compiled to comes with it’s own caveats however. Android for example can be inconsistent between OS versions. Newer Android versions however include an updateable WebView that should decrease the fragmentation between versions. <sup uk-tooltip title="VanToll TJ. 2014"><a href="other.html#3">[3]</a></sup></p>
+                  <p>There can also be unique capabilities of platforms that can be utilized via a combination of plugins and platform-specific code. Provides access to the OS and device API’s through plugins. Does not work as well as native for graphics intensive apps, but does provide a few solutions. These solutions include HTML5 Canvas and WebGL and some libraries like Paper.JS, EaselJS. Some not yet mentioned challenges of hybrid application development include inconsistencies between WebViews, inaccessible features of a platform due to out-of-date/unreliable or missing plugins. <sup uk-tooltip title="Bristowe J. 2017"><a href="other.html#2"><a href="other.html#2">[2]</a></a></sup></p>
+                  <hr class="uk-divider-icon">
+                  <h4>Pros</h4>
+                  <ul>
+                    <li>One codebase to manage</li>
+                    <li>Save time</li>
+                    <li>Save money</li>
+                    <li>Easier to scale</li>
+                    <li>You usually have access to device features</li>
+                  </ul>
+                  <hr class="uk-divider-icon">
+                  <h4>Cons</h4>
+                  <ul>
+                    <li>Performance might suffer</li>
+                    <li>Not all of the code can be shared between platforms, so you might need some native code</li>
+                    <li>Access to device and OS features rely on plugins or framework support</li>
+                    <li>Cross-platform development can be tough</li>
+                    <li>The UX of the app will suffer</li>
+                    <li>UI customisation is dependent on the framework</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <hr>
+                <a class="uk-accordion-title" href="#"><span uk-icon="icon: world; ratio: 1.25" class="uk-align-left"></span><span class>Responsive Web App</span></a>
+                <div class="uk-accordion-content">
+                  <p>A responsive website can function similar to an app, they can even run in full screen to make the difference even smaller. Usually developed using HTML5 and Javascript. The biggest drawback is not being able to market your app on the app store, there is also the issue of the need for constant connection. There’s a huge amount of apps being released yearly, so there may be an overload for the user. That might drive the users to use responsive website apps instead. <sup uk-tooltip title="Interaction Design Foundation, 2017."><a href="other.html#1">[1]</a></sup></p>
+                  <p>Websites have restricted abilities compared to applications that are enforced by the browser, sandboxing it away from the OS. Some of these restrictions on advanced functionality include media capture and streaming. HTML5 has provided some compatibility to use the device’s abilities, such as the camera and geolocation. Does not provide access to the OS and device API’s. <sup uk-tooltip title="Bristowe J. 2017"><a href="other.html#2"><a href="other.html#2">[2]</a></a></sup></p>
+                  <p>A website’s and a web apps difference is subjective. Most would say that a web site is informational while a web app provides functionality. Wikipedia is a website while facebook is a web app. However, unlike almost everything else that is also named an “application”, web apps don’t need to be downloaded. They are loaded in browsers. They don’t need SDK’s. Developing a web app can be simple and quick. Their simplicity is also their downside as they don’t let you do half of the things mobile apps do. Some web apps do offer some of the OS’s capabilities like push notifications, load on homescreen, and offline work, those apps are called progressive web apps. Progressive web apps only work on google chrome however which can be fairly limiting. <sup uk-tooltip title="Saccomani P. 2018"><a href="other.html#5">[5]</a></sup></p>
+                  <hr class="uk-divider-icon">
+                  <h4>Pros</h4>
+                  <ul>
+                    <li>Fast and cheap development</li>
+                    <li>Code shared between different versions</li>
+                    <li>Libraries can be leveraged</li>
+                    <li>Can be updated without the app store</li>
+                  </ul>
+                  <hr class="uk-divider-icon">
+                  <h4>Cons</h4>
+                  <ul>
+                    <li>Can't access all features of the platform, but still most</li>
+                    <li>Graphics might not be performant enough</li>
+                    <li>Lower speed</li>
+                    <li>Access to device and OS features dependent on framework or plugins</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <hr>
+                <a class="uk-accordion-title" href="#"><span uk-icon="icon: info; ratio: 1.25" class="uk-align-left"></span><span class>Comparison</span></a>
+                <div class="uk-accordion-content">
+                  <small>Individual pros and cons can be found in the above sections.</small>
+                  <p>The <b>end user</b> usually does not care about how the application has been developed as long as it works as expected and provides a good user-experience. <sup uk-tooltip title="Interaction Design Foundation, 2017."><a href="other.html#1">[1]</a></sup> <sup uk-tooltip title="Bristowe J. 2017"><a href="other.html#2"><a href="other.html#2">[2]</a></a></sup> However native applications might have better performance, especially when it comes to graphics. <sup uk-tooltip title="Bristowe J"><a href="other.html#2"><a href="other.html#2">[2]</a></a></sup> Techniques and platforms exist that can help web apps feel like native apps. <sup uk-tooltip title="Saccomani P. 2018"><a href="other.html#5">[5]</a></sup></p>
+
+                  <p>The <b>developer</b> however needs to answer the following questions:</p>
+                  <hr>
+                  <dl class="uk-description-list uk-description-list-divider">
+                     <dt>Which mobile platforms do you wish to target?</dt>
+                     <dd class="uk-margin-small-top">If you plan on only targeting one, you might want to consider going native. If you plan on targeting multiple platforms you need to answer other questions that might help you to arrive at a decision. Hybrid and responsive web apps however are designed to target multiple platforms.</dd>
+                     <dt>Do you want to distribute your application via app stores?</dt>
+                     <dd class="uk-margin-small-top">If yes, then you need to develop either Native or Hybrid applications. Web based responsive apps utilize the browser’s address bar instead.</dd>
+                     <dt>Are you looking to utilize the capabilities of the mobile device?</dt>
+                     <dd class="uk-margin-small-top">Native is the safes way to go if you are planning to use the device's features extensively. Hybrid applications provide plugins that access those features, but they might be out-of-date/unreliable or even missing</dd>
+                     <dt>What are the technical abilities of your development team?</dt>
+                     <dd class="uk-margin-small-top">
+                      <ul class="uk-list uk-list-bullet">
+                         <li>Native would require developers experienced with the platforms SDK’s and the programming languages in use on the platform.</li>
+                         <li>Hybrid and responsive web apps would require knowledge of HTML, CSS and JavaScript.</li>
+                      </ul>
+                     </dd>
+                     <hr>
+                     <small uk-tooltip title="Bristowe J"><a href="other.html#2"><a href="other.html#2">[2]</a></a></small>
+                  </dl>
+                  <small>What follows is an expansion on pros and cons, shorter versions available on the types own sections</small>
+                  <p class="uk-margin-top">With mobile apps, hybrid or native, you get the advantages of the app store such as increased visibility.
+                  You also get push notifications which increase app launches by 88%.
+                  Apps can be easier to share than web app. Mobile users spend more time on apps than on the web, in fact they use apps 86% of the time they use their mobiles.
+                  Ad revenue can be bigger in apps than in web apps. CPM for ad are generally higher than in web apps. Also apps make it impossible for people to block your ads using ad-blockers. General rule of thumb when deciding which to build is that apps are good if you plan to make a product that is used almost daily where web apps are great, due to their fast development times and low costs, for once-in-a-blue-moon use. <sup uk-tooltip title="Saccomani P. 2018"><a href="other.html#5">[5]</a></sup></p>
+
+                  <h4>So why are most apps native?</h4>
+                  <p>
+                    The reason is that native apps have a number of significant advantages over the alternatives. Native apps offer the fastest, most reliable and most responsive experience to users. This is unlikely to change in favor of web apps. Native makes tapping into the camera, microphone, compass, accelerometer and swipe gestures super easy. It’s still possible using the alternatives, but it’s easiest on native. Native apps can make use of push-notifications, alerting users when their attention is required in the app. You get the opportunity to continually bring your audience back for more, which is key to a successful app. You’re more likely to please your users due to the way you can match each app’s UI/UX to the platform conventions. There are dozens of UI/UX differences that make users feel at home. By building native, you don’t have to compromise with UI/UX that you hope will be user-friendly for all platforms.
+                  </p>
+                  <h4>Disadvantages of native mobile apps</h4>
+                  <p>iOS apps will not run on Android and vice versa, so you will have to work with different codebases for every platform you choose to build in. Native apps generally cost more to make than hybrid apps. Most developers specialize in one platform (Android or iOS), so to create an app on both platforms will require two separate developers (or teams), which also adds to time and cost.</p>
+                  <h4>So why might you choose to go hybrid instead?</h4>
+                  <p>Hybrid apps are useful for prototyping or providing a MVP ( Minimum Viable Product ) if you are short on resources or just need a simple version that still provides value. Web apps provide similar functions but building a hybrid app can make testing whether or not the user is going to download something like your app much easier.</p>
+                  <p>All the advantages of hybrid apps stem from the fact that, instead of building two apps, you’re building one app and simply tweaking it a bit so it works on both platforms. With a hybrid app, you only have one codebase to manage. As you only have to manage one codebase, you’ll probably require half the number of developers two native apps would have required. Or, with the same number of developers, a hybrid app could be published in half the time. In addtion, developers for hybrid apps are often less expensive than native developers. Hybrid apps are easier to scale to another platform. Once you’ve built for one platform, you can launch on another like Windows Mobile. As with native apps, you retain the same ability to access device features. This is thanks to solutions like PhoneGap that act like a bridge between the native SDK and the webview in which the app runs. </p>
+                  <h4>Disadvantages of hybrid apps</h4>
+                  <p>Performance is probably the biggest disadvantage of hybrid apps. Because hybrid apps load in a browser-like component called webview, they are only as good as the webview. Webview is responsible for displaying the UI and for running Javascript code. In the early days of mobile, Google and Apple didn’t give webview the same engines used by their mobile browsers, Chrome and Safari. Since then, webview has vastly improved but it hasn’t reached native performance yet. Getting your hybrid app to run appropriately on each platform generally takes substantial work. In some situations, the total cost might become comparable to that of fully native apps, rendering the cost benefits negligible. It all depends on how close you want to get to the “native user experience” or how simple your app is. iOS and Android users tend to be very loyal to their platforms, and since they’ve been using them for years, they’re used to how things work in native apps. The differences are subtle but can be frustrating for your users. By building a hybrid app, you won’t be able to please both camps. Try too hard to customize the app based on the platform and it may end up costing the same as two native apps.</p>
+                  <h4>Comparison chart from <a href="other.html#4">Stangarone J.</a></h4>
+                  <a href="img/chart.png"><img src="img/chart.png" alt=""/></a>
+                </div>
+            </ul>
+            <a href="#" uk-totop uk-scroll class="uk-margin-bottom uk-icon-button"></a>
+        </div>
+    </body>
+</html>

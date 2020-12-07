@@ -1,0 +1,15 @@
+html, body
+{
+  height: 100%;
+}
+
+h1
+{
+  text-align: center;
+}
+
+:target
+{
+  background: yellow;
+  -webkit-transition: all 1s linear;
+}
