@@ -1,4 +1,6 @@
 # School
+Code is Very Old(tm)
+
 Some of the schoolwork I could find and think might be relevant. Most have so much extra things i decided to exclude them and instead just list my relevant grades:
 
 OAMK:<br>
