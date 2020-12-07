@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/style.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#joku">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Antti Pikkuaho</a>
+			</div>
+		
+			<div class="collapse navbar-collapse" id="joku">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="me.html">Me outside of games</a></li>
+					<li class="dropdown">
+						<!-- Tähän ei vissiin kannata laittaa mitään hreffiin?-->
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Me inside games<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+						<li><a href="summary.html">Summary</a></li>
+						<li class="divider"></li>
+						<li><a href="wow.html">World of Warcraft</a></li>
+						<li><a href="dods.html">Day of Defeat:Source</a></li>
+						<li><a href="css.html">Counter-Strike:Source</a></li>
+						<li><a href="swtor.html">Star Wars Old Republic</a></li>
+						<li><a href="dota2.html">Dota 2</a></li>
+						</ul>
+					</li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<!-- Tämä tässä siksi että alemmassa col-md-2 divissä ei toiminut -offset-1, kuva alkoi toimimaan väärin-->
+			<div class="col-md-1">				
+			</div>
+			<div class="col-md-2 nopadding nomargin">
+				<img src="images/profile.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-8">
+				<h1>Antti Pikkuaho<small> In Real Life</small></h1>
+				<dl class="dl-horizontal text-muted">
+					<dt>Born</dt>
+					<dd>26.04.1990</dd>
+					<dt>Interests</dt>
+					<dd>Games,anime,manga,music,traveling,beers,some coding</dd>
+					<dt>Education level</dt>
+					<dd>High school</dd>
+					<dt>Currently studying</dt>
+					<dd>Information processing sciences at the University of Applied Sciences of Oulu</dd>
+					<dt>Past studies</dt>
+					<dd>Two years at the University of Oulu studying Information processing sciences</dd>
+					<dt>Work Experience</dt>
+					<dd>None in my own field of study/interests. Worked 4 summers gathering peat at my father's company.</dd>
+					<dt>Army</dt>
+					<dd>I served in the 1st Jaeger Company in Sodankyl&auml as a artillery observer private/forward observer/spotter. I'm not certain about these titles</dd>
+				</dl>
+			</div>
+			<div class="col-md-1">			
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-10 text-muted" data-html="true" id="maintext">
+				<h3 class="white">Short history</h3>
+				<p>I was born. Some childhood things happended like learning to ride a bike and getting vaccinations. Nothing hugely interesting<br>
+				I got my first computer as a christmas or birthday present in 1995, and since then i've been using the computer way too much, according to everyone else.<br>
+				Well it wasn't all like that in the beginning, just innocently playing alley cat or stunts, then going out to hang with friends or play football.<br>
+				I played football in Ajax, not the real one ofcourse, we won some Oulu cups or something. I was so little it is kinda hard to remember all the details, this was back around 1998<br>
+				</p>
+				<p>After football, i started doing general athletics. I was especially good at running and long jump if i remember correctly.<br>
+				My mother signed me up for wrestling even though i was going to some tournament in Helsinki for the general athletics thing, i had zero practice for that for 6 months or so<br>
+				I quit wrestling quite soon after starting it, after my first official match in fact. It didn't really seem like my thing, even though i did win the first match because my opponent thought he was doing WWE and broke the rules. He kind of won the match anyhow in my view, i was weaker.<br>
+				</p>
+				<p>At around this time my parents divorced, and I lived with my mother in a different house for some time. Shortly thereafter we moved to Spain.<br>
+				In Spain my mother and his new upcoming husband bought a little restaurant near the docks. It was a fun time in general, though i mostly had "friends" who were in their retirement age.<br>
+				I can see the effect of my stay in Spain quite easily in my life, i'm really missing some basic knowledge that was taught in Finnish pre-schools. Talking is sometimes a bit hard for me still, but i think that's also because of me spending so much time on the internet speaking english instead of finnish.<br>
+				I played Football and did Taekwon-Do for the duration of my stay.
+				</p>
+				<p>Around this time (2001 onwards) i really started to get into games, i had played them before ofcourse, but I started to think of them as a hobby, became a bit obsessed with them I guess you could say.<br>
+				I really regret that i did not get into competitive gaming all that much then. I played mostly single player games, i really loved <b>Deus Ex</b> and <b>Morrowind</b>. Still do, planning to get tattoos at some point even. Make it so that those tattoos show the contrast between cyberpunk scifi and fantasy.<br>
+				</p>
+				<p>I moved back to Finland at some point, got into seventh grade. In Finland i finally started playing some competitive games like Counter-Strike: Source and Day of Defeat: Source. I had been a big fan of the earlier Day of Defeat too.<br>
+				Then World of Warcraft happended. There went all competitive aspirations, but i really loved the game and it's community. I made many friends through and because of this game, even in real life.<br>
+				
+				</p>
+			</div>
+			<div class="col-md-1">
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="ContactMe" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="ContactMe">Contact Me</h4>
+				</div>
+				<div class="modal-body">
+					<form role="form">
+						<div class="form-group">
+							<label for="YourName">Your Name</label>
+							<input type="text" class="form-control" id="contactingname" placeholder="Your name here">
+						</div>
+						<div class="form-group">
+							<label for="YourEmail">Your E-mail</label>
+							<input type="email" class="form-control" id="contactingemail" placeholder="Your e-mail here">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="5" id="message"></textarea>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Send</button>
+				</div>					
+			</div>
+		</div>
+	</div>
+	
+	<nav class="navbar navbar-inverse navbar-fixed-bottom" role="footer">
+		<div class="container-fluid pull-left">
+			<p class="navbar-text">&copy; Antti Pikkuaho. Made using <a href="http://getbootstrap.com/">Bootstrap</a>.</p>
+		</div>
+		<div class="container-fluid pull-right">
+			<a class="navbar-brand" href="http://myanimelist.net/profile/Korru"> <img src="images/mal_logo_scaled.png"></a>
+			<a class="navbar-brand" href="http://www.last.fm/user/Korrud"> <img src="images/lastfm_logo_white_scaled.png"></a>
+			<a class="navbar-brand" href="https://twitter.com/Korrud"> <img src="images/twitter_logo_white_scaled.png"></a>
+			<a class="navbar-brand" href="https://www.facebook.com/apikkuaho"> <img src="images/facebook_logo_white_scaled.png"></a>
+			<a class="navbar-brand" href="http://steamcommunity.com/profiles/76561197965941090/"> <img src="images/steam_logo_scaled.png"></a>
+			<a class="navbar-brand" href="https://www.youtube.com/channel/UC2xajFw_XupVYbdGHzsnS0w"> <img src="images/youtube_logo_white_scaled.png"></a>
+		</div>
+	</div>	
+	
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	</body>

@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>UI Elements</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+    <link rel="stylesheet" href="css/mystyles.css" />
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+    <div data-role="page" id="mainpage">
+        <header data-role="header" class="ui-group-theme-b">
+            <h1>UI Exercise</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#input_elements" class="ui-icon-user ui-btn-icon-left">Input elements</a></li>
+                    <li><a href="#something" class="ui-icon-star ui-btn-icon-left">Something</a></li>
+                    <li><a href="#dialog" class="ui-icon-info ui-btn-icon-left">Dialog</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <article data-role="content">
+            <h4>Collapsible items</h4>
+            <div data-role="collapsible" data-iconpos="right" data-inset="false" >
+                <h1>My name</h1>
+                <p>Liisa Auer</p>
+            </div>
+            <div data-role="collapsible" data-iconpos="right" data-inset="false">
+                <h1>My group</h1>
+                <p>teacher</p>
+            </div>
+            <div data-role="collapsible" data-iconpos="right" data-inset="false">
+                <h1>My country and city</h1>
+                <p>Finland</p>
+                <p>Oulu</p>
+            </div>
+
+            <h4>Collapsible list items</h4>
+            <ul data-role="listview" data-inset="true" >
+                <li data-role="collapsible" data-iconpos="right">
+                    <h1>My name</h1>
+                    <p>Liisa Auer</p>
+                </li>
+
+                <li data-role="collapsible" data-iconpos="right">
+                    <h1>My group</h1>
+                    <p>teacher</p>
+                </li>
+
+                <li data-role="collapsible" data-iconpos="right">
+                    <h1>My country and city</h1>
+                    <p>Finland</p>
+                    <p>Oulu</p>
+                </li>
+            </ul>
+        </article>
+
+        <footer data-role="footer" data-position="fixed">
+            <h1>Liisa Auer</h1>
+        </footer>
+    </div>
+    <!-- end of the first page -->
+
+    <div data-role="page" id="input_elements">
+        <header data-role="header">
+            <a data-rel="back" href="#mainpage" class="ui-btn ui-icon-back ui-btn-icon-notext">Back</a>
+            <h1>UI Exercise</h1>
+        </header>
+
+        <article data-role="content">
+            <h4>Some input elements</h4>
+            <form>
+                <label for="myname">Name:</label>
+                <input name="myname" id="myname" type="text" data-clear-btn="true" />
+
+                <label for="myage">Age:</label>
+                <input name="myage" id="myage" type="number" data-clear-btn="true" 
+                    min="0" max="100" pattern="[0-9]*"/>
+
+                <label for="myweight">Weight</label>
+                <input type="range" name="myweight" id="myweight" value="50" 
+                    data-highlight="true" min="0" max="100" step="0.5" />
+
+                <fieldset data-role="controlgroup">
+                    <legend>I like:</legend>
+                    <input type="checkbox" name="mycat" id="mycat" />
+                    <label for="mycat">Cats</label>
+                    <input type="checkbox" name="mydog" id="mydog" />
+                    <label for="mydog">Dogs</label>
+                    <input type="checkbox" name="mybird" id="mybird" />
+                    <label for="mybird">Birds</label>
+                </fieldset>
+
+                <fieldset data-role="controlgroup">
+                    <legend>Season is now: </legend>
+                    <input type="radio" name="season" id="winter" />
+                    <label for="winter">Winter</label>
+                    <input type="radio" name="season" id="spring" />
+                    <label for="spring">Spring</label>
+                    <input type="radio" name="season" id="summer" />
+                    <label for="summer">Summer</label>
+                    <input type="radio" name="season" id="autumn" />
+                    <label for="autumn">Autumn</label>
+                </fieldset>
+            </form>
+        </article>
+
+        <footer data-role="footer" data-position="fixed">
+            <h1>Liisa Auer</h1>
+        </footer>
+    </div> <!--end of the second page-->
+
+    <div data-role="page" id="something">
+        <header data-role="header">
+            <a data-rel="back" href="#mainpage" class="ui-btn ui-icon-back ui-btn-icon-notext">Back</a>
+            <h1>UI Exercise</h1>
+        </header>
+
+        <article data-role="content">
+            <h4>Just something</h4>
+            <form>
+                <label for="mycar">I have a car</label>
+                <input type="checkbox" data-role="flipswitch" name="mycar" id="mycar"
+                    data-on-text="Yes" data-off-text="No" />
+
+                <p>Popup text</p>
+                <a href="#mytext" class="ui-btn" data-rel="popup" data-position-to="window"
+                    data-transition="slideup">Click me</a>
+
+                <div data-role="popup" id="mytext" class="ui-content">
+                    <h3>Popup text</h3>
+                    <p>This is a paragraph.</p>
+                </div>
+            </form>
+        </article>
+
+        <footer data-role="footer" data-position="fixed">
+            <h1>Liisa Auer</h1>
+        </footer>
+    </div> <!--end of the third page-->
+
+    <div data-role="page" id="dialog" data-dialog="true" data-close-btn="right">
+        <header data-role="header">
+            <h1>Dialog window</h1>
+        </header>
+        <article data-role="content">
+            <h4>This is a dialog window</h4>
+            <p>Something to inform the user.</p>
+            <a href="#mainpage" data-rel="back" data-role="button">OK</a>
+        </article>
+    </div> <!-- end of the dialog -->
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/style.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#joku">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Antti Pikkuaho</a>
+			</div>
+		
+			<div class="collapse navbar-collapse" id="joku">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="me.html">Me outside of games</a></li>
+					<li class="dropdown active">
+						<!-- Tähän ei vissiin kannata laittaa mitään hreffiin?-->
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Me inside games<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+						<li><a href="summary.html">Summary</a></li>
+						<li class="divider"></li>
+						<li><a href="wow.html">World of Warcraft</a></li>
+						<li class="active"><a href="dods.html">Day of Defeat:Source</a></li>
+						<li><a href="css.html">Counter-Strike:Source</a></li>
+						<li><a href="swtor.html">Star Wars Old Republic</a></li>
+						<li><a href="dota2.html">Dota 2</a></li>
+						</ul>
+					</li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container white">
+		<h1>Day of Defeat: Source</h1>
+		<p>This might aswell be called "Pelikahvila Nook" chapter, and maybe merged with CSS,but whatever</p>
+		<p>I played a hell of a lot of Day of Defeat Source when i was younger, and competed in every local event with some team</p>
+		<p>I made team Mech, competed with them at vectorama, didn't even make it to third place. We won every single event at the gaming cafe though</p>
+		<p><a href="http://steamcommunity.com/groups/iloisettoverit">Iloiset Toverit</a> Gaming Community which is actually just a group of friends who enjoy gaming together is also an indirect result of DoDs. 
+		We were making a group into Vectorama which had to be named. We named the group one year into "Mech ja Iloiset Toverit".
+		The reason for that was it was Team Mech going to compete and we had some friends with us in the group so we could get a discount.
+		Later on when we disbanded Mech we just started using the name Iloiset Toverit everywhere. We used to have an irc channel but nowadays everyone just uses skype.
+		</p>
+		<p>So nothing special here i suppose, just felt like mentioning this game especially since i really had strong feelings for the game, and it also lit the
+		competitive spirit in me for the first time.		
+		</p>
+	</div>
+	
+	<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="ContactMe" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="ContactMe">Contact Me</h4>
+				</div>
+				<div class="modal-body">
+					<form role="form">
+						<div class="form-group">
+							<label for="YourName">Your Name</label>
+							<input type="text" class="form-control" id="contactingname" placeholder="Your name here">
+						</div>
+						<div class="form-group">
+							<label for="YourEmail">Your E-mail</label>
+							<input type="email" class="form-control" id="contactingemail" placeholder="Your e-mail here">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="5" id="message"></textarea>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Send</button>
+				</div>					
+			</div>
+		</div>
+	</div>
+	
+	<nav class="navbar navbar-inverse navbar-fixed-bottom" role="footer">
+		<div class="container-fluid pull-left">
+			<p class="navbar-text">&copy; Antti Pikkuaho. Made using <a href="http://getbootstrap.com/">Bootstrap</a>.</p>
+		</div>
+		<div class="container-fluid pull-right">
+			<a class="navbar-brand" href="http://myanimelist.net/profile/Korru"> <img src="images/mal_logo_scaled.png"></a>
+			<a class="navbar-brand" href="http://www.last.fm/user/Korrud"> <img src="images/lastfm_logo_white_scaled.png"></a>
+			<a class="navbar-brand" href="https://twitter.com/Korrud"> <img src="images/twitter_logo_white_scaled.png"></a>
+			<a class="navbar-brand" href="https://www.facebook.com/apikkuaho"> <img src="images/facebook_logo_white_scaled.png"></a>
+			<a class="navbar-brand" href="http://steamcommunity.com/profiles/76561197965941090/"> <img src="images/steam_logo_scaled.png"></a>
+			<a class="navbar-brand" href="https://www.youtube.com/channel/UC2xajFw_XupVYbdGHzsnS0w"> <img src="images/youtube_logo_white_scaled.png"></a>
+		</div>
+	</div>	
+	
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	</body>

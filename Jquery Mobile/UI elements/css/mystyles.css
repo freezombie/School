@@ -1,0 +1,14 @@
+﻿/*remove margin in a listview heading*/
+.ui-listview > li h1,
+.ui-listview > li h2 {
+    margin:0;
+}
+
+.ui-listview > .ui-li-static {
+    padding: 0;
+}
+
+/*element has both of these class values*/
+.ui-li-static.ui-collapsible {
+    border-width: 0;
+}

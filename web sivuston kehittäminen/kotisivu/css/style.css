@@ -1,0 +1,12 @@
+.white {color: White}
+.nopadding {padding: 0}
+.nomargin {margin:0}
+.center {margin-left: auto; margin-right: auto;}
+
+body {background: url('../images/background.png') !important;}
+
+h1 {color:White}
+
+#maintext {margin-bottom: 60px;}
+
+#contact { z-index:1500; }

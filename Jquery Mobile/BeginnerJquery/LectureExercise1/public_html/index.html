@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>UI exercise</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="libraries/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css">
+        <!-- Add you own stylesheet here -->
+        <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+        <script src="libraries/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+        <!-- Index page -->
+        <div data-role='page' id="index">
+            <div data-role='header' data-theme='a'>
+                <h1>UI Exercise</h1>
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href='#inputelements' class="ui-btn ui-icon-user ui-btn-icon-left">Input elements</a></li>
+                        <li><a href='#something' class="ui-btn ui-icon-star ui-btn-icon-left">Something</a></li>
+                        <li><a href='#dialog' class="ui-btn ui-icon-info ui-btn-icon-left">Dialog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        
+            <div data-role='content' id="index">
+                <div data-role='collapsible' data-collapsed="false">
+                    <h3>My name</h3>
+                    <p>Antti Pikkuaho</p>                  
+                </div>
+                <div data-role='collapsible' data-collapsed="false">
+                    <h3>My group</h3>
+                    <p>TIK3SNW</p>                  
+                </div>
+                <div data-role='collapsible' data-collapsed="false">
+                    <h3>My country</h3>
+                    <p>Finland</p>                  
+                </div>
+            </div>
+            
+            <div data-role='footer' data-theme="a">
+                <h4>Antti Pikkuaho</h4>
+            </div>
+        </div>
+        <!-- End of Index -->
+        <!-- Input Elements page -->
+        <div data-role='page' id='inputelements'>
+            <header data-role='header'>
+                <a data-rel="back" href="#mainpage" class="ui-btn ui-icon-back ui-btn-icon-notext">Back</a>
+                <h1>UI Exercise</h1>
+            </header>
+            
+            <article data-role='content'>
+                <h4>Some input elements</h4>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Your name" id="name" data-clear-btn="true"/>
+                    <label for="age">Age</label>
+                    <input type="number" step="1" name="age" data-clear-btn="true"/>
+                    <label for='weight'>Weight</label>
+                    <input type='range' min='30' max='150' step='0.5' value='50' name='weight' id="weight" data-highlight='true'/>
+                    
+                    <fieldset data-role="controlgroup">
+                        <legend>I like:</legend>
+                        <input type="checkbox" id="cats"/>
+                        <label for="cats">Cats</label>
+                        <input type="checkbox" id="dogs"/>
+                        <label for="dogs">Dogs</label>
+                        <input type="checkbox" id="humans"/>
+                        <label for="humans">Humans</label>
+                    </fieldset>
+                    
+                    <fieldset data-role="controlgroup">
+                        <legend>Season is now</legend>
+                        <input type="radio" id="winter" name="season"/>
+                        <label for="winter">Winter</label>
+                        <input type="radio" id="spring" name="season"/>
+                        <label for="spring">Spring</label>
+                        <input type="radio" id="summer" name="season"/>
+                        <label for="summer">Summer</label>
+                        <input type="radio" id="autumn" name="season"/>
+                        <label for="autumn">Autumn</label>
+                    </fieldset>
+                </form>
+            </article>
+            <div data-role='footer' data-theme="a">
+                <h4>Antti Pikkuaho</h4>
+            </div>
+        </div>
+        <!-- End of Input Elements -->
+        <!-- Something page -->
+        <div data-role='page' id='something'>
+            <header data-role='header'>
+                <a data-rel="back" href="#mainpage" class="ui-btn ui-icon-back ui-btn-icon-notext">Back</a>
+                <h1>UI Exercise</h1>
+            </header>
+            
+            <article data-role='content'>
+                <h4>Just something</h4>
+                <form>
+                    <label for='car'>Have a car?</label>
+                    <input type='checkbox' id='car' name='car' data-role='flipswitch' data-on-text='Yes' data-off-text="No"/>
+                    <p>Popup text</p>
+                    <a href="#popup" class="ui-btn" data-rel="popup" data-position-to="window" data-transition="slideup">Click me!</a>
+                    <div data-role="popup" id="popup" class="ui-content">
+                        <h3>Popup tekstiä</h3>
+                        <p>Jotain tekstiä</p>
+                    </div>
+                </form>
+            </article>
+            <div data-role='footer' data-theme="a">
+                <h4>Antti Pikkuaho</h4>
+            </div>
+        </div>
+        <!-- End of Something -->
+        <!-- Dialog page -->
+        <div data-role='page' id='dialog' data-dialog='true' data-close-btn='right'>
+            <header data-role='header'>
+                <a data-rel="back" href="#mainpage" class="ui-btn ui-icon-back ui-btn-icon-notext">Back</a>
+                <h1>UI Exercise</h1>
+            </header>
+            
+            <article data-role='content'>
+                <h4>Dialog</h4>
+                <p>Press 'OK' to get back to the page</p>
+                <a href='#index' data-rel="back" data-role="button">OK</a>
+            </article>            
+        </div>
+    </body>
+</html>

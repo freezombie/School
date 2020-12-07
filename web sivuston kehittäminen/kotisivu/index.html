@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/style.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+	<nav class="navbar navbar-inverse navbar-static-top nopadding nomargin" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#joku">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Antti Pikkuaho</a>
+			</div>
+		
+			<div class="collapse navbar-collapse" id="joku">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="me.html">Me outside of games</a></li>
+					<li class="dropdown">
+						<!-- Tähän ei vissiin kannata laittaa mitään hreffiin?-->
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Me inside games<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+						<li><a href="summary.html">Summary</a></li>
+						<li class="divider"></li>
+						<li><a href="wow.html">World of Warcraft</a></li>
+						<li><a href="dods.html">Day of Defeat:Source</a></li>
+						<li><a href="css.html">Counter-Strike:Source</a></li>
+						<li><a href="swtor.html">Star Wars Old Republic</a></li>
+						<li><a href="dota2.html">Dota 2</a></li>
+						</ul>
+					</li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container center">
+		<div id="etusivukaruselli" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#etusivukaruselli" data-slide-to="0" class="active"></li>
+			<li data-target="#etusivukaruselli" data-slide-to="1"></li>
+			<li data-target="#etusivukaruselli" data-slide-to="2"></li>
+			<li data-target="#etusivukaruselli" data-slide-to="3"></li>
+			<li data-target="#etusivukaruselli" data-slide-to="4"></li>
+			<li data-target="#etusivukaruselli" data-slide-to="5"></li>
+			<li data-target="#etusivukaruselli" data-slide-to="6"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="images/carousel1.jpg" alt="Japanpic" class="img-responsive">
+				<div class="carousel-caption">
+					<a href="me.html"><button type="button" class="btn btn-default">Me outside of games</button></a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/carousel2.jpg" alt="eventpic" class="img-responsive">
+				<div class="carousel-caption">
+					<a href="summary.html"><button type="button" class="btn btn-default">Me inside games</button></a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/carousel3.jpg" alt="wowpic" class="img-responsive">
+				<div class="carousel-caption">
+					<a href="wow.html"><button type="button" class="btn btn-default">World of Warcraft</button></a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/carousel4.jpg" alt="dodspic" class="img-responsive">
+				<div class="carousel-caption">
+					<a href="dods.html"><button type="button" class="btn btn-default">Day of Defeat:Source</button></a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/carousel5.jpg" alt="csspic" class="img-responsive">
+				<div class="carousel-caption">
+					<a href="css.html"><button type="button" class="btn btn-default">Counter-Strike:Source</button></a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/carousel6.jpg" alt="swtorpic" class="img-responsive">
+				<div class="carousel-caption">
+					<a href="swtor.html"><button type="button" class="btn btn-default">Star Wars: The Old Republic</button></a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/carousel7.png" alt="dota2pic" class="img-responsive">
+				<div class="carousel-caption">
+					<a href="dota2.html"><button type="button" class="btn btn-default">Dota 2</button></a>
+				</div>
+			</div>			
+		</div>
+		
+		<a class="left carousel-control" href="#etusivukaruselli" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#etusivukaruselli" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+	</div>
+	
+	<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="ContactMe" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="ContactMe">Contact Me</h4>
+				</div>
+				<div class="modal-body">
+					<form role="form">
+						<div class="form-group">
+							<label for="YourName">Your Name</label>
+							<input type="text" class="form-control" id="contactingname" placeholder="Your name here">
+						</div>
+						<div class="form-group">
+							<label for="YourEmail">Your E-mail</label>
+							<input type="email" class="form-control" id="contactingemail" placeholder="Your e-mail here">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="5" id="message"></textarea>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Send</button>
+				</div>					
+			</div>
+		</div>
+	</div>
+	
+	<nav class="navbar navbar-inverse navbar-fixed-bottom nopadding nomargin" role="footer">
+		<div class="container-fluid pull-left">
+			<p class="navbar-text">&copy; Antti Pikkuaho. Made using <a href="http://getbootstrap.com/">Bootstrap</a>.</p>
+		</div>
+		<div class="container-fluid pull-right">
+			<a class="navbar-brand" href="http://myanimelist.net/profile/Korru"> <img src="images/mal_logo_scaled.png"></a>
+			<a class="navbar-brand" href="http://www.last.fm/user/Korrud"> <img src="images/lastfm_logo_white_scaled.png"></a>
+			<a class="navbar-brand" href="https://twitter.com/Korrud"> <img src="images/twitter_logo_white_scaled.png"></a>
+			<a class="navbar-brand" href="https://www.facebook.com/apikkuaho"> <img src="images/facebook_logo_white_scaled.png"></a>
+			<a class="navbar-brand" href="http://steamcommunity.com/profiles/76561197965941090/"> <img src="images/steam_logo_scaled.png"></a>
+			<a class="navbar-brand" href="https://www.youtube.com/channel/UC2xajFw_XupVYbdGHzsnS0w"> <img src="images/youtube_logo_white_scaled.png"></a>
+		</div>
+	</div>	
+	
+	
+	
+	
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	
+	</body>

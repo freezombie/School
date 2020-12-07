@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/style.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#joku">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Antti Pikkuaho</a>
+			</div>
+		
+			<div class="collapse navbar-collapse" id="joku">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="me.html">Me outside of games</a></li>
+					<li class="dropdown active">
+						<!-- Tähän ei vissiin kannata laittaa mitään hreffiin?-->
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Me inside games<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+						<li><a href="summary.html">Summary</a></li>
+						<li class="divider"></li>
+						<li><a href="wow.html">World of Warcraft</a></li>
+						<li><a href="dods.html">Day of Defeat:Source</a></li>
+						<li class="active"><a href="css.html">Counter-Strike:Source</a></li>
+						<li><a href="swtor.html">Star Wars Old Republic</a></li>
+						<li><a href="dota2.html">Dota 2</a></li>
+						</ul>
+					</li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container white">
+	<h1>Counter-strike:Source</h1>
+	<p>I didn't play 1.6 let's just put that out there and be done with that.</p>
+	<p>I used to run the server Oulu Finland Perkele in CSS. Also had a clan by the name of OFP. Not very creative i know but I was young and stupid i suppose.</p>
+	<p>We didn't take it very seriously, but we did have some matches and i think we won most of those.</p>
+	<p>At some point I started running custom maps and surf maps mostly on the server. Around half of the regulars became angry with this and left. 
+	I also left the stats tracking on even for surf maps so now I kinda realize i was an idiot. I however enjoyed all those maps, i was very tired with the normal maps at this point</p>
+	<p>Competed in this game aswell in gaming cafe tournaments. Usually some 20 year old dudes came and whipped our asses. Had fun anyhow</p>
+	<p>I have some nice memories of this game, i used to be good i think... Should had continued and made it bigger, but didn't because i'm not very stable/constant.
+	My interests change very fast, especially if i don't have any IRL friends playing a game with me regularly</p>
+	<p>I remember in Spain owning everyone in gaming cafe's and being very smug about it. Young etc.</p>
+	<p>I think CSS is the reason i made a friend out of Aleksi.</p>
+	</div>
+	
+	<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="ContactMe" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="ContactMe">Contact Me</h4>
+				</div>
+				<div class="modal-body">
+					<form role="form">
+						<div class="form-group">
+							<label for="YourName">Your Name</label>
+							<input type="text" class="form-control" id="contactingname" placeholder="Your name here">
+						</div>
+						<div class="form-group">
+							<label for="YourEmail">Your E-mail</label>
+							<input type="email" class="form-control" id="contactingemail" placeholder="Your e-mail here">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="5" id="message"></textarea>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Send</button>
+				</div>					
+			</div>
+		</div>
+	</div>
+	
+	<nav class="navbar navbar-inverse navbar-fixed-bottom" role="footer">
+		<div class="container-fluid pull-left">
+			<p class="navbar-text">&copy; Antti Pikkuaho. Made using <a href="http://getbootstrap.com/">Bootstrap</a>.</p>
+		</div>
+		<div class="container-fluid pull-right">
+			<a class="navbar-brand" href="http://myanimelist.net/profile/Korru"> <img src="images/mal_logo_scaled.png"></a>
+			<a class="navbar-brand" href="http://www.last.fm/user/Korrud"> <img src="images/lastfm_logo_white_scaled.png"></a>
+			<a class="navbar-brand" href="https://twitter.com/Korrud"> <img src="images/twitter_logo_white_scaled.png"></a>
+			<a class="navbar-brand" href="https://www.facebook.com/apikkuaho"> <img src="images/facebook_logo_white_scaled.png"></a>
+			<a class="navbar-brand" href="http://steamcommunity.com/profiles/76561197965941090/"> <img src="images/steam_logo_scaled.png"></a>
+			<a class="navbar-brand" href="https://www.youtube.com/channel/UC2xajFw_XupVYbdGHzsnS0w"> <img src="images/youtube_logo_white_scaled.png"></a>
+		</div>
+	</div>
+	
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	</body>
