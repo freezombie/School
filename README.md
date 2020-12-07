@@ -1,2 +1,2 @@
 # School
-All of the schoolwork I could find.
+Some of the schoolwork I could find and think might be relevant.
