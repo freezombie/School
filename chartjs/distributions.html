@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Ohjelmoijakysely</title>
+  <meta name="description" content="">
+  <meta name="author" content="FreeZombie">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 10%">
+        <h1>Ohjelmoijakyselyn tulokset</h1>
+        <a href="record-count.html" class="button button-primary">Takaisin</a>
+        <h2>Hajonnat</h2>
+        <h3>Ikä:</h3>
+        <div class="chart-container">
+          <canvas id="age"></canvas>
+        </div>
+        <h3>Sukupuoli:</h3>
+        <div class="chart-container">
+          <canvas id="gender"></canvas>
+        </div>
+        <h3>Kokemus vuosina:</h3>
+        <div class="chart-container">
+          <canvas id="experienceDoughnut"></canvas>
+        </div>
+        <h3>Ohjelmointi yleisellä tasolla</h3>
+        <div class="chart-container">
+          <canvas id="programming"></canvas>
+        </div>
+        <h3>Web FrontEnd</h3>
+        <div class="chart-container">
+          <canvas id="web_frontend"></canvas>
+        </div>
+        <h3>Web BackEnd</h3>
+        <div class="chart-container">
+          <canvas id="web_backend"></canvas>
+        </div>
+        <h3>Mobiili natiivi</h3>
+        <div class="chart-container">
+          <canvas id="mobile_native"></canvas>
+        </div>
+        <h3>Mobiili hybridi</h3>
+        <div class="chart-container">
+          <canvas id="mobile_hybrid"></canvas>
+        </div>
+        <h3>Relaatiotietokannat</h3>
+        <div class="chart-container">
+          <canvas id="relational_database"></canvas>
+        </div>
+        <h3>NoSQL tietokannat</h3>
+        <div class="chart-container">
+          <canvas id="nosql_database"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/jquery-3.3.1.min.js" type="text/javascript" ></script>
+  <script src="js/Chart.min.js" type="text/javascript"></script>
+  <script src="js/distributions.js" type="text/javascript" ></script>
+</body>
+
+</html>

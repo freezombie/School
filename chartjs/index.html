@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Ohjelmoijakysely</title>
+  <meta name="description" content="">
+  <meta name="author" content="FreeZombie">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 10%">
+        <h1>Ohjelmoijakysely</h1>
+        <p>
+          Täytä tiedot alla, <b>tai</b> mene suoraan tulossivulle <a href="record-count.html" class="button" style="margin-left: 1%">Tästä</a>
+        </p>
+        <h2>Yleistiedot</h2>
+        <form action="insert.php" method="POST">
+          <label for="age">Ikä:</label>
+          <input id="age" name="age" type="number" min="15" max="65" placeholder="15" required/> <span style="margin-left: 2%">Arvoalue: 15-65</span>
+          <label for="gender">Sukupuoli:</label>
+          <label><input type="radio" name="gender" value="0" checked><span class="label-body">Mies</span></label>
+          <label><input type="radio" name="gender" value="1"><span class="label-body">Nainen</span></label>
+          <label><input type="radio" name="gender" value="2"><span class="label-body">Muu</span></label>
+          <label for="experience_years">Kokemus vuosissa:</label>
+          <input id="experience_years" name="experience_years" type="number" min="0" max="50" placeholder="0" required/> <span style="margin-left: 2%">Arvoalue: 0-50</span>
+          <h2>Arvioi ohjelmointiosaamistasi</h2>
+          <label for="programming">Ohjelmointi yleisellä tasolla</label>
+          <label><input type="radio" name="programming" value="5" style="margin-top:1%"><span class="label-body">Erittäin hyvä</span></label>
+          <label><input type="radio" name="programming" value="4"><span class="label-body">Hyvä</span></label>
+          <label><input type="radio" name="programming" value="3"><span class="label-body">Tyydyttävä</span></label>
+          <label><input type="radio" name="programming" value="2"><span class="label-body">Välttävä</span></label>
+          <label><input type="radio" name="programming" value="1" checked><span class="label-body">Heikko</span></label>
+          <label for="web_frontend" style="margin-top: 2%">Web Frontend</label>
+          <label><input type="radio" name="web_frontend" value="5" style="margin-top:1%"><span class="label-body">Erittäin hyvä</span></label>
+          <label><input type="radio" name="web_frontend" value="4"><span class="label-body">Hyvä</span></label>
+          <label><input type="radio" name="web_frontend" value="3"><span class="label-body">Tyydyttävä</span></label>
+          <label><input type="radio" name="web_frontend" value="2"><span class="label-body">Välttävä</span></label>
+          <label><input type="radio" name="web_frontend" value="1" checked><span class="label-body">Heikko</span></label>
+          <label for="web_backend" style="margin-top: 2%">Web Backend</label>
+          <label><input type="radio" name="web_backend" value="5" style="margin-top:1%"><span class="label-body">Erittäin hyvä</span><br/>
+          <label><input type="radio" name="web_backend" value="4"><span class="label-body">Hyvä</span></label>
+          <label><input type="radio" name="web_backend" value="3"><span class="label-body">Tyydyttävä</span></label>
+          <label><input type="radio" name="web_backend" value="2"><span class="label-body">Välttävä</span></label>
+          <label><input type="radio" name="web_backend" value="1" checked><span class="label-body">Heikko</span></label>
+          <label for="mobile_native" style="margin-top: 2%">Natiivi Mobiili</label>
+          <label><input type="radio" name="mobile_native" value="5" style="margin-top:1%"><span class="label-body">Erittäin hyvä</span><br/>
+          <label><input type="radio" name="mobile_native" value="4"><span class="label-body">Hyvä</span></label>
+          <label><input type="radio" name="mobile_native" value="3"><span class="label-body">Tyydyttävä</span></label>
+          <label><input type="radio" name="mobile_native" value="2"><span class="label-body">Välttävä</span></label>
+          <label><input type="radio" name="mobile_native" value="1" checked><span class="label-body">Heikko</span></label>
+          <label for="mobile_hybrid" style="margin-top: 2%">Hybridi Mobiili</label>
+          <label><input type="radio" name="mobile_hybrid" value="5" style="margin-top:1%"><span class="label-body">Erittäin hyvä</span><br/>
+          <label><input type="radio" name="mobile_hybrid" value="4"><span class="label-body">Hyvä</span></label>
+          <label><input type="radio" name="mobile_hybrid" value="3"><span class="label-body">Tyydyttävä</span></label>
+          <label><input type="radio" name="mobile_hybrid" value="2"><span class="label-body">Välttävä</span></label>
+          <label><input type="radio" name="mobile_hybrid" value="1" checked><span class="label-body">Heikko</span></label>
+          <label for="relational_database" style="margin-top: 2%">Relaatiotietokannat</label>
+          <label><input type="radio" name="relational_database" value="5" style="margin-top:1%"><span class="label-body">Erittäin hyvä</span><br/>
+          <label><input type="radio" name="relational_database" value="4"><span class="label-body">Hyvä</span></label>
+          <label><input type="radio" name="relational_database" value="3"><span class="label-body">Tyydyttävä</span></label>
+          <label><input type="radio" name="relational_database" value="2"><span class="label-body">Välttävä</span></label>
+          <label><input type="radio" name="relational_database" value="1" checked><span class="label-body">Heikko</span></label>
+          <label for="nosql_database" style="margin-top: 2%">NoSQL-tietokannat</label>
+          <label><input type="radio" name="nosql_database" value="5" style="margin-top:1%"><span class="label-body">Erittäin hyvä</span><br/>
+          <label><input type="radio" name="nosql_database" value="4"><span class="label-body">Hyvä</span></label>
+          <label><input type="radio" name="nosql_database" value="3"><span class="label-body">Tyydyttävä</span></label>
+          <label><input type="radio" name="nosql_database" value="2"><span class="label-body">Välttävä</span></label>
+          <label><input type="radio" name="nosql_database" value="1" checked><span class="label-body">Heikko</span></label>
+          <input type="submit" class="button-primary" style="margin-top: 2%">
+          <input type="reset" style="margin-left: 2%">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
