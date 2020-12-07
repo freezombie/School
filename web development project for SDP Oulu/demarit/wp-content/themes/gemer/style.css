@@ -1,0 +1,729 @@
+/*
+Theme Name: Gemer
+Theme URI: http://dannci.com/gemer-theme/
+Description: <a href="http://dannci.com/gemer-theme/">Gemer</a>: clean WordPress theme. A two-columned wordpress theme with featured posts. Fixed-width, two columns. In red-black-white colous.
+Author: Dannci
+Author URI: http://dannci.com
+Version: 1.0.2
+Tags: white, red, black, light, two-columns, left-sidebar, fixed-width, theme-options, threaded-comments
+*/
+
+
+/*  theme is licensed under the GPL  */
+
+
+* {
+	margin: 0; padding: 0;
+}
+body {
+	text-align: center;
+	font: 12px Verdana;
+	color: #666;
+	background: #333;
+}
+#all {
+	width: 970px;
+	margin: auto auto;
+	text-align: left;
+	background:#FFFFFF;
+	border-left:5px solid #999;
+	border-right:5px solid #999;
+}
+a {
+	color: #003399;
+	text-decoration: none;
+}
+a:hover {
+	
+	color: #990000;
+}
+img {
+	border: 0;
+}
+
+.break {
+	font-size: 0;
+	width: 0; height: 0;
+	clear: both;
+}
+.alignleft {
+	float: left;
+	margin: 4px 10px 5px 0;
+}
+.alignright {
+	float: right;
+	margin: 4px 0 5px 10px;
+}
+.aligncenter {
+	text-align: center;
+}
+.hidden {
+	display: none;
+	
+}
+
+/** BEGIN wrapper **/
+#wrapper {
+	width: 970px;
+	margin: auto auto;
+	text-align: left;
+	background:#FFFFFF;
+}
+/** END wrapper **/
+
+/** BEGIN header **/
+#header {
+}
+	#header .logo {
+		float: left;
+		padding: 30px 0 30px 20px;
+	}
+		#header .logo h1 {
+			font-size: 2.1em;
+			font-family:Arial, verdana, Helvetica, sans-serif;
+		}
+			#header .logo h1 a {
+				text-decoration: none;
+				color:#666;
+			}
+		#header .logo p {
+			color: #777777;
+			font-size: 0.8em;
+		}
+	#header .sear {
+		float: right;
+		padding: 30px 20px 0 0;
+	}
+	#header .pages {
+		list-style-type: none;
+		clear: both;
+		height: 35px;
+		overflow: hidden;
+		width:100%;
+		background:#CC0000;
+	}
+		#header .pages li {
+			float: left;
+			padding-right: 2px;
+		}
+		#header .pages li a {
+			color: #fff;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 0.9em;
+			font-weight: bold;
+			display: block;
+			padding: 11px 14px;
+		}
+		#header .pages li a:hover {
+			color: #003d6a;
+			background:#FFFFFF;
+		}
+	#header .categories {
+		list-style-type: none;
+		clear: both;
+		overflow: hidden;
+		width:100%;
+		background-color:#333;
+	}
+		#header .categories li {
+			float: left;
+			font-size: 0.9em;
+		}
+		#header .categories li a {
+			color: #fff;
+			text-decoration: none;
+			display: block;
+			padding: 10px 14px;
+		}
+		#header .categories li a:hover {
+			text-decoration: underline;
+		}
+/** END header **/
+
+/** BEGIN content **/
+#content {
+	width: 630px;
+	float: left;
+	padding: 9px 0 10px;
+	background:#FFFFFF;
+}
+	#content .featured {
+		height: 238px;
+		padding: 12px;
+		border-left: 4px solid #f2f2f2;
+		border-bottom: 4px solid #f2f2f2;
+		margin-bottom: 0px;
+		/*background-color:#2F3540;*/
+		color:#666;
+	}
+		#content .featured h2 {
+			font-size: 0.9em;
+			text-transform: uppercase;
+			margin-bottom: 28px;
+			background-color:#CC0000;
+			padding:  12px 10px;
+			color:#FFFFFF;
+		}
+		#content .featured img {
+			float: left;
+			margin: 0 10px 10px 0;
+			border: 1px solid #f2f2f2;
+			padding: 5px;
+		}
+		#content .featured h3 {
+			font-size: 1.5em;
+			margin-bottom: 5px;
+		}
+			#content .featured h3 a {
+				color: #666;
+				text-decoration: none;
+			}
+		#content .featured .details {
+			font-size: 0.9em;
+			margin-bottom: 15px;
+		}
+		#content .featured p {
+			line-height: 1.4em;
+		}
+		#content .featured .fpost {
+			height: 163px;
+		}
+	#content .post {
+		width: 288px;
+		float: right;
+		padding: 10px 10px 15px;
+		border-left: 4px solid #f2f2f2;
+		border-bottom: 1px dotted #f2f2f2;
+		margin-bottom: 30px;
+	}
+		#content .post h3 {
+			margin-bottom: 10px;
+			font-size: 1.2em;
+		}
+			#content .post h3 a {
+				color: #666;
+				text-decoration: none;
+			}
+		#content .post img {
+			width: 90px; height: 90px;
+			padding: 4px;
+			border: 1px solid #f2f2f2;
+			float: left;
+			margin: 0 10px 15px 0;
+		}
+		#content .post p {
+			line-height: 1.4em;
+			font-size: 0.9em;
+		}
+		#content .post .category {
+			clear: both;
+			float: left;
+			font-size: 0.8em;
+			padding-top: 10px;
+		}
+		#content .post .comments {
+			float: right;
+			font-size: 0.8em;
+			padding-top: 10px;
+		}
+	#content .uneven {
+		float: left;
+		clear: both;
+	}
+	#content .postnav {
+		clear: both;
+		padding: 30px;
+	}
+		#content .postnav ul {
+			list-style-type: none;
+			padding: 10px;
+		}
+			#content .postnav ul li {
+				float: left;
+				color: #B5B4BC;
+				padding: 4px;
+			}
+			#content .postnav ul li a {
+				color: #636363;
+				text-decoration: none;
+				display: block;
+				padding: 2px 6px;
+				border: 1px solid #E2E2E2;
+			}
+			#content .postnav ul li a:hover {
+				border-color: #ffffff;
+			}
+			#wp_page_numbers ul {
+				border-top: 0 !important;
+			}
+			#wp_page_numbers .page_info {
+				padding: 3px 6px !important;
+				margin-right: 2px;
+				border: 1px solid #e0e0e0 !important;
+				margin-top: 4px;
+			}
+			#wp_page_numbers .active_page a {
+				background-color: #ffffff !important;
+				border: 0 !important;
+			}
+#content .postmeta{ background-color:#CC0000;}
+/** END content **/
+
+/** BEGIN sidebar **/
+#sidebar {
+	width: 330px;
+	float: right;
+	padding: 20px 0 10px;
+	background:#FFFFFF;
+}
+	#sidebar ul {
+		list-style-type: none;
+		margin-bottom: 15px;
+	}
+		#sidebar ul li {
+			line-height: 1.4em;
+			padding: 2px 0;
+		}
+		#sidebar ul li a {
+			color: #003399;
+			text-decoration: none;
+		}
+		#sidebar ul li a:hover {
+			color: #003d6a;
+			text-decoration: underline;
+		}
+	#sidebar .box {
+		border-left: 4px solid #f2f2f2;
+		border-top: 1px dotted #f2f2f2;
+		background-color: #fff;
+		margin-bottom: 10px;
+	}
+		#sidebar .box h2 {
+			padding: 12px 10px;
+			font-size: 0.9em;
+			text-transform: uppercase;
+			background:#CC0000;
+			color:#FFFFFF;
+		}
+		#sidebar .box .sponsors {
+			text-align: center;
+			padding: 7px;
+		}
+			#sidebar .box .sponsors img {
+				margin: 7px;
+			}
+		#sidebar .box .popular {
+			list-style-type: none;
+			padding: 14px;
+		}
+			#sidebar .box .popular li {
+				line-height: 1.4em;
+				padding: 4px 0;
+			}
+			#sidebar .box .popular li a {
+				font-weight: bold;
+				text-decoration: none;
+			}
+			#sidebar .box .popular li p {
+				padding: 4px 0;
+			}
+		#sidebar .box .flickr {
+			text-align: center;
+			padding: 7px;
+		}
+			#sidebar .box .flickr img {
+				margin: 7px;
+			}
+		#sidebar .box .video {
+			padding: 15px 17px;
+		}
+		#sidebar .box .tags {
+			padding: 15px;
+		}
+			#sidebar .box .tags a {
+				color: #000000;
+				text-decoration: none;
+			}
+			#sidebar .box .tags a:hover {
+				color: #003d6a;
+				text-decoration: underline;
+			}
+			
+/* left sidebar */
+
+#left {
+	width:150px;
+	float:left;
+	margin:7px 7px 0 0;
+	padding:0;
+	border-left: 4px solid #f2f2f2;
+		border-top: 4px solid #f2f2f2;
+		background-color: #fff;
+	}
+
+#left h2{
+	font:bold 0.9em verdana, arial, georgia, times;	
+	margin: 0;
+	padding:  12px 10px;
+	text-transform:uppercase;
+	background:#CC0000;
+	color:#FFFFFF;
+}
+
+#left label{
+	font:normal 11pt arial, georgia, times;
+	color: #000;	
+	margin: 0;
+	padding: 0;
+}
+
+#left p {margin:0; padding: 0;}
+
+#left img {padding: 0; margin: 0;}
+
+#left ul {
+	margin:12px;
+	padding:0;
+	}
+
+#left ul li {
+	margin: 0;
+	padding: 0;
+	line-height: 14pt;
+	list-style-type: none;
+	}
+
+#left ul ul {
+	margin:14px 0;
+	padding: 0;
+}
+
+#left ul ul li {
+	list-style-type: none;
+	}
+
+#left ul ul ul{
+	margin: 0;
+	padding: 0;
+}
+
+#left ul ul ul li{
+	padding: 0 0 0 15px;
+	
+	color: #898989;
+}
+
+
+
+/* right sidebar */
+
+#right{
+	width:150px;
+	float:right;
+	margin:7px 7px 0 0;
+	padding: 0;
+	border-left: 4px solid #f2f2f2;
+		border-top: 4px solid #f2f2f2;
+		background-color: #fff;
+	}
+
+#right h2{
+	font:bold 0.9em verdana, arial, georgia, times;	
+	margin: 0;
+	padding:  12px 10px;
+	text-transform:uppercase;
+	background:#CC0000;
+	color:#FFFFFF;
+}
+
+#right label{
+	font:normal 11pt arial, georgia, times;
+	color: #000;	
+	margin: 0;
+	padding: 0;
+}
+
+#right p {margin:0; padding:0;}
+
+#right img {padding: 0; margin: 0;}
+
+#right ul {
+	margin:12px;
+	padding:0;
+	}
+
+#right ul li {
+	margin: 0;
+	padding: 0;
+	line-height: 14pt;
+	list-style-type: none;
+	}
+
+#right ul ul {
+	margin:14px 0;
+	padding: 0;
+}
+
+#right ul ul li {
+	list-style-type: none;
+	}
+
+#right ul ul ul{
+	margin: 0;
+	padding: 0;
+}
+
+#right ul ul ul li{
+	padding: 0 0 0 15px;
+	color: #898989;
+}
+
+
+
+	/*************************************
+ +Search
+ *************************************/
+
+#searchform{
+	padding:0;
+	margin:5px 10px 0 0;
+	}
+
+#searchform input#s{
+	margin:0;
+	padding:10px;
+	border:1px solid #f2f2f2;
+	width:250px;
+	font-size:pt;
+	color: #Ccc;
+	}
+
+#searchform input#searchsubmit{
+	border:none;
+	background:#333;
+	color:#fff;
+	text-transform:lowercase;
+	
+	}
+
+
+	#sidebar .half {
+		padding: 20px 15px 5px;
+	}
+		#sidebar .half .l {
+			float: left;
+			width: 145px;
+		}
+		#sidebar .half .r {
+			float: right;
+			width: 145px;
+		}
+		#sidebar .half h2 {
+			background: none;
+			padding: 0;
+			margin-bottom: 5px;
+		}
+/** END sidebar **/
+
+/** BEGIN footer **/
+#footer {
+	clear: both;
+	background-color: #333;
+	padding: 20px 20px;
+	height: 15px;
+	font-size: 0.9em;
+	color:#FFFFFF;
+}
+	#footer .wrapper {
+		width: 970px;
+		margin: auto auto;
+		text-align: left;
+	}
+	#footer p {
+		color: #ffffff;
+	}
+	#footer a {
+		color: #ffffff;
+	}
+	#footer p.l {
+		float: left;
+	}
+	#footer p.r {
+		float: right;
+	}
+/** END footer **/
+
+/** BEGIN miscellaneous **/
+#content .single {
+	padding: 12px;
+	margin-bottom: 10px;
+}
+	#content .single h2 {
+		font-size: 0.9em;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+	#content .single p {
+		line-height: 1.5em;
+		margin-bottom: 10px;
+	}
+	#content .single ul, #content .single ol {
+		list-style-position: inside;
+		margin-bottom: 10px;
+	}
+	#content .single li {
+		line-height: 1.5em;
+		padding: 2px 0;
+	}
+	#content .single blockquote {
+		padding: 10px 10px 5px;
+		margin-bottom: 10px;
+		background-color: #eeeeee;
+		border-width: 1px 0;
+		border-style: solid;
+		border-color: #e0e0e0;
+	}
+	#content .single h3, #content .single h4, #content .single h5, #content .single h6 {
+		font-size: 1.2em;
+		margin-bottom: 5px;
+	}
+#comments {
+	padding: 12px;
+	border-top: 1px solid #bbbbbb;
+	margin-bottom: 10px;
+}
+	#comments a {
+		text-decoration: none;
+	}
+	#comments h2 {
+		font-size: 0.9em;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+		clear: both;
+	}
+	#comments p {
+		margin-bottom: 10px;
+		line-height: 1.6em;
+	}
+	#comments form {
+		
+	}
+	#comments form p {
+		margin-bottom: 5px;
+	}
+		#comments form input {
+			margin-right: 5px;
+		}
+		#comments form input, textarea {
+			border: 1px solid #cccccc;
+			font-size: 0.9em;
+			font-family: Verdana;
+			padding: 4px;
+			background-position: 4px 4px;
+			background-repeat: no-repeat;
+		}
+		#comments form input {
+			width: 240px;
+			border: 1px solid #cccccc;
+		}
+		#comments form textarea {
+			width: 350px;
+			padding: 4px 4px !important;
+			border: 1px solid #cccccc;
+		}
+		#comments form button {
+			border: 1px solid #a0a0a0;
+			font-size: 1em;
+			font-family: Verdana;
+			padding: 2px 6px;
+		}
+	.commentdetails {
+		margin-top: 25px;
+	}
+	.commentauthor {
+		margin-bottom: 5px !important;
+		font-weight: bold;
+	}
+	.commentdate {
+		font-size: 0.8em;
+		margin-bottom: 5px;
+		color: #909090;
+	}
+	.required {
+		color: #ff0000;
+	}
+h2.title {
+	font-size: 1em !important;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+.notfound {
+	padding: 40px;
+}
+	.notfound h2 {
+		font-size: 18px;
+		font-weight: normal;
+		margin-bottom: 10px;
+	}
+
+/** END miscellaneous **/
+
+/** BEGIN wordpress 2.7 comments **/
+#comments ol {
+	list-style-type: none;
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+	#comments .buffer {
+		padding: 10px;
+	}
+	#comments ol li {
+		margin-bottom: 10px;
+	}
+	#comments ol li ul li {
+		border: 1px solid #e0e0e0;
+		padding: 10px;
+	}
+	#comments ol li .avatar {
+		float: right;
+	}
+	#comments ol li .comment-author {
+		
+	}
+		#comments ol li .comment-author .fn {
+			font-weight: bold;
+			font-size: 1.2em;
+		}
+	#comments ol li .comment-meta {
+		font-size: 0.9em;
+		color: #999999;
+		margin: 5px 0 10px;
+	}
+	#comments ol li .reply {
+		font-size: 0.9em;
+		font-weight: bold;
+		padding-bottom: 10px;
+	}
+	#comments .children {
+		list-style-type: none;
+	}
+#comments .navigation {
+	padding: 0 0 40px;
+	font-size: 0.9em;
+}
+	#comments .navigation a {
+		color: #999999;
+		padding: 3px 8px;
+		border: 1px solid #cccccc;
+	}
+	#comments .navigation a:hover {
+		color: #000000;
+		border-color: #000000;
+		text-decoration: none;
+	}
+#comments .says {
+	display: none;
+}
+/** END wordpress 2.7 comments **/

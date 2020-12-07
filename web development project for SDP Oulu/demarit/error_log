@@ -1,0 +1,67 @@
+[10-Dec-2014 17:00:27 UTC] PHP Fatal error:  Exception in Nette\Templating\Template::__toString(): Invalid UTF-8 sequence in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:7050 in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 6683
+[10-Dec-2014 17:00:33 UTC] PHP Fatal error:  Exception in Nette\Templating\Template::__toString(): Invalid UTF-8 sequence in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:7050 in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 6683
+[10-Dec-2014 17:03:58 UTC] PHP Fatal error:  Exception in Nette\Templating\Template::__toString(): Invalid UTF-8 sequence in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:7050 in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 6683
+[10-Dec-2014 17:04:06 UTC] PHP Fatal error:  Exception in Nette\Templating\Template::__toString(): Invalid UTF-8 sequence in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:7050 in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 6683
+[10-Dec-2014 17:04:10 UTC] PHP Fatal error:  Exception in Nette\Templating\Template::__toString(): Invalid UTF-8 sequence in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:7050 in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 6683
+[10-Dec-2014 17:04:19 UTC] PHP Fatal error:  Exception in Nette\Templating\Template::__toString(): Invalid UTF-8 sequence in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:7050 in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 6683
+[10-Dec-2014 17:05:12 UTC] PHP Fatal error:  Exception in Nette\Templating\Template::__toString(): Invalid UTF-8 sequence in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:7050 in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 6683
+[10-Dec-2014 17:05:23 UTC] PHP Fatal error:  Exception in Nette\Templating\Template::__toString(): Invalid UTF-8 sequence in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:7050 in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 6683
+[10-Dec-2014 17:05:55 UTC] PHP Fatal error:  Exception in Nette\Templating\Template::__toString(): Invalid UTF-8 sequence in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:7050 in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 6683
+[10-Dec-2014 17:07:36 UTC] PHP Fatal error:  Exception in Nette\Templating\Template::__toString(): Invalid UTF-8 sequence in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:7050 in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 6683
+[10-Dec-2014 17:07:39 UTC] PHP Fatal error:  Exception in Nette\Templating\Template::__toString(): Invalid UTF-8 sequence in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:7050 in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 6683
+[10-Dec-2014 17:13:27 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\Ca in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:13:34 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\Ca in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:13:35 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\Ca in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:13:42 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\Ca in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:14:40 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:14:43 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:14:48 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:15:02 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909

@@ -1,0 +1,208 @@
+[03-Nov-2014 08:47:27 UTC] PHP Warning:  Division by zero in /home/n3suju00/public_html/demarit/wp-admin/custom-header.php on line 1123
+[03-Nov-2014 08:47:27 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/n3suju00/public_html/demarit/wp-includes/media.php on line 2053
+[03-Nov-2014 08:47:27 UTC] PHP Warning:  imageantialias() expects parameter 1 to be resource, boolean given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-image-editor-gd.php on line 282
+[03-Nov-2014 08:47:27 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-image-editor-gd.php on line 284
+[03-Nov-2014 08:47:46 UTC] PHP Warning:  Division by zero in /home/n3suju00/public_html/demarit/wp-admin/custom-header.php on line 1123
+[03-Nov-2014 08:52:01 UTC] PHP Warning:  Division by zero in /home/n3suju00/public_html/demarit/wp-admin/custom-header.php on line 1123
+[30-Nov-2014 12:43:55 UTC] WordPress-tietokannan virhe Duplicate column name 'start_month' kyselylle ALTER TABLE wp_spidercalendar_calendar ADD start_month varchar(255); Tekijä: activate_plugin, do_action('activate_spider-event-calendar/calendar.php'), call_user_func_array, SpiderCalendar_activate, spider_calendar_chech_update
+[30-Nov-2014 13:37:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'flagLoader' not found in /home/n3suju00/public_html/demarit/wp-includes/plugin.php on line 505
+[30-Nov-2014 14:04:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 14:06:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 17:11:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 19:16:14 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in /home/n3suju00/public_html/demarit/wp-content/plugins/content-grid-slider/uninstall.php on line 20 and defined in /home/n3suju00/public_html/demarit/wp-includes/wp-db.php on line 1154
+[30-Nov-2014 19:17:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 19:20:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 19:22:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 19:23:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 19:35:53 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:37:15 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:37:28 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:37:33 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:38:01 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:38:38 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:38:43 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:39:02 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:41:49 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:41:50 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:43:23 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:43:24 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:44:48 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:44:53 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:45:09 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:45:57 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 19:46:21 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, object given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-walker.php on line 288
+[30-Nov-2014 20:10:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 20:13:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 20:14:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 20:15:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 20:17:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 20:17:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 20:17:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 20:18:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 20:18:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[30-Nov-2014 20:19:36 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/n3suju00/public_html/demarit/wp-includes/media.php on line 2057
+[30-Nov-2014 20:19:36 UTC] PHP Warning:  imageantialias() expects parameter 1 to be resource, boolean given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-image-editor-gd.php on line 282
+[30-Nov-2014 20:19:36 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/n3suju00/public_html/demarit/wp-includes/class-wp-image-editor-gd.php on line 284
+[01-Dec-2014 09:24:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[10-Dec-2014 16:58:25 UTC] PHP Fatal error:  Class 'SimpleSubscribe\Forms' not found in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Admin.php on line 66
+[10-Dec-2014 16:58:26 UTC] PHP Fatal error:  Class 'SimpleSubscribe\Forms' not found in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Admin.php on line 66
+[10-Dec-2014 16:58:26 UTC] PHP Fatal error:  Class 'SimpleSubscribe\Forms' not found in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Admin.php on line 66
+[10-Dec-2014 16:58:32 UTC] PHP Fatal error:  Class 'SimpleSubscribe\Forms' not found in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Admin.php on line 66
+[10-Dec-2014 16:58:33 UTC] PHP Fatal error:  Class 'SimpleSubscribe\Forms' not found in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Admin.php on line 66
+[10-Dec-2014 16:59:18 UTC] PHP Fatal error:  Class 'SimpleSubscribe\Forms' not found in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Admin.php on line 66
+[10-Dec-2014 17:10:50 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\Ca in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:10:56 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\Ca in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:11:05 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:11:10 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:11:15 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:11:21 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:11:24 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:11:31 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:11:31 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:11:32 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:11:34 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:11:49 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:12:05 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:12:23 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:13:23 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\Ca in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:13:54 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\Ca in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:14:06 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\Ca in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:14:59 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms suomeksi.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\C in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:22:28 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\Ca in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:22:31 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\Ca in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 17:22:31 UTC] PHP Fatal error:  Uncaught exception 'Nette\InvalidStateException' with message 'Ambiguous class SimpleSubscribe\Forms resolution; defined in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms alkuper.php and in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/SimpleSubscribe/Forms.php.' in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php:5909
+Stack trace:
+#0 [internal function]: Nette\Loaders\RobotLoader->_rebuildCallback(NULL)
+#1 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(6854): call_user_func_array(Array, Array)
+#2 [internal function]: Nette\Utils\Callback::Nette\Utils\{closure}(NULL)
+#3 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1589): call_user_func_array(Object(Closure), Array)
+#4 /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php(1585): Nette\Caching\Ca in /home/n3suju00/public_html/demarit/wp-content/plugins/simple-subscribe/libs/Nette/Nette.min.php on line 5909
+[10-Dec-2014 20:07:39 UTC] PHP Warning:  unlink(/home/n3suju00/public_html/demarit/wp-content/uploads/grid-gallery/cache/locales): No such file or directory in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/vendor/Rsc/Cache/Filesystem.php on line 73
+[10-Dec-2014 21:44:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[10-Dec-2014 21:51:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[10-Dec-2014 21:51:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[10-Dec-2014 21:51:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[10-Dec-2014 21:53:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[10-Dec-2014 21:53:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[12-Dec-2014 12:04:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454
+[12-Dec-2014 12:09:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/n3suju00/public_html/demarit/wp-content/plugins/grid-gallery-ready/src/GirdGallery/Galleries/Controller.php on line 454

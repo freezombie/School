@@ -1,0 +1,4 @@
+[03-02-2015 10:09:45] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://ptmedia.fi/feed/". cURL error 6: Couldn't resolve host 'ptmedia.fi'
+
+
